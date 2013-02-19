@@ -26,3 +26,12 @@ Blank Scala project for quick&amp;easy setup. Just clone it and you are ready to
 
 ## Prerequisities
 * [SBT](http://www.scala-sbt.org) 0.12
+
+## Documentation
+
+### Installing SBT
+
+* [Mac OS X](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html#mac)
+  * Homebrew is recommended
+* [Windows](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html#installing-sbt)
+* [Linux - Gentoo](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html#gentoo)
