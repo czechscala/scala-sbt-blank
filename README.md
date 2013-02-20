@@ -38,7 +38,7 @@ sbt> run
 ### IntelliJ IDEA
 The Blank project contains SBT plugin **gen-idea**  which allows to generate IDEA's project files.
 
-I suggest you change the name of the project in the `build.sbt` file after you clone the repository. 
+I suggest you **change the name of the project** in the `build.sbt` file after you clone the repository. 
 Start SBT and run following command:
 
 ```
@@ -47,3 +47,18 @@ sbt> gen-idea no-sbt-build-module
 ```
 
 Then you can open the project using IDEA as you are used to. The most important things should already be setup.
+
+### Eclipse
+
+TODO
+
+### REPL
+SBT contains a nice command `console` which allows firing up a REPL (Scala console) with the **project on classpath**.
+That means that you can interactively try your code.
+
+```
+> sbt
+sbt> console
+scala> import com.czechscala.blank._
+scala> Hello.sayHello
+```
