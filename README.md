@@ -36,9 +36,9 @@ sbt> run
 * [Linux - Gentoo](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html#gentoo)
 
 ### IntelliJ IDEA
-The Blank project contains SBT plugin **gen-idea**  which allows to generate IDEA's project files.
+This Blank project contains SBT plugin **gen-idea** that allows you to generate IDEA's project files.
 
-I suggest you **change the name of the project** in the `build.sbt` file after you clone the repository. 
+We suggest you **change the name of the project** in the `build.sbt` file after you clone the repository. 
 Start SBT and run following command:
 
 ```
@@ -49,8 +49,22 @@ sbt> gen-idea no-sbt-build-module
 Then you can open the project using IDEA as you are used to. The most important things should already be setup.
 
 ### Eclipse
+You will need the [Scala IDE](http://scala-ide.org/) plugin to work with Scala projects in your Eclipse.
+We recommend the latest [milestone release](http://scala-ide.org/download/milestone.html) of Scala IDE 2.1.0.
 
-TODO
+This Blank project contains SBT plugin [sbteclipse](https://github.com/typesafehub/sbteclipse/wiki/Using-sbteclipse)
+that allows you to generate Eclipse project definitions.
+
+We suggest you **change the name of the project** in the `build.sbt` file after you clone the repository (otherwise the name of the project would be `blank`).
+
+After that, start SBT and run the following command:
+
+```
+> sbt
+sbt> eclipse
+```
+
+This will create an Eclipse project that you can import into your workspace.
 
 ### REPL
 SBT contains a nice command `console` which allows firing up a REPL (Scala console) with the **project on classpath**.
