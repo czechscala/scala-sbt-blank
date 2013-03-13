@@ -8,7 +8,7 @@ Blank Scala project for quick&amp;easy setup. Just clone it and you are ready to
 ```bash
 > mkdir my-project
 > cd my-project
-> git clone git@github.com:czechscala/blank.git .
+> git clone git@github.com:czechscala/scala-sbt-blank.git .
 > sbt
 ```
 
